@@ -1244,10 +1244,10 @@ contract ABC is ERC721Enumerable, Ownable {
     uint256 public maxMintAmount = 5;
     bool public paused = false;
 
-    constructor() ERC721("Africa's Blockchain Club NFT Collection", "ABC") {}
+    constructor() ERC721("Yankho's NFT Collection", "ABC") {}
         // internal
         function _baseURI() internal view virtual override returns (string memory) {
-        return "ipfs://Qmb7d8syZ1Gq6DNy1gt4JyjmgrbTJSf6h2M7WAsy5WpchT/";
+        return "ipfs://QmdTLp2ipfYT1t7mCdH1No26spzqc8UL5SeYVveaCmjk13/";
     }
         // public
 
