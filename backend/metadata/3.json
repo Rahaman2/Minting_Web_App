@@ -1,0 +1,19 @@
+{
+    "name": "Weirdo",
+    "description": "Smirking Face",
+    "image": "ipfs://QmVCoNAYAfyiQKhwApXEnVsfkR29BLUL7qaf1wgxT1uCsW/3.png",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2003"
+      }
+    ]
+  }
