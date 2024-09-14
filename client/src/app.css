@@ -1,0 +1,72 @@
+/* General Layout */
+
+h1{
+  text-align: center;
+}
+
+.prompt-button {
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  background-color: #646cff;
+  /* justify-content: center; */
+  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+.mint-button {
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  background-color: #646cff;
+  /* justify-content: center; */
+  color: #fff;
+  font-size: 1em;
+  margin-right: 10px; 
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
+
+p{text-align: center;}
+
+/* Ensure the body and html take full height */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+/* Flexbox on the parent container to center content */
+.page-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  display: flex;
+  align-items: center; /* Align icon and text vertically */
+  gap: 0.5em; /* Optional: space between icon and text */
+}
+
+/* Optional: Styling for text */
+.text {
+  margin: 0;
+  color: #000; /* Default color for text */
+}
+
+/* Connect Button */
+.connect-button {
+  padding: 0.75em 1.5em;
+  border: none;
+  border-radius: 4px;
+  background-color: #646cff;
+  /* margin-right: auto; */
+  color: #fff;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+}
