@@ -1,33 +1,56 @@
+# Minting Web App
 
-  # ABC NFT Contract
-Overview
-The ABC NFT Contract is an ERC721 token contract for creating and managing a collection of non-fungible tokens (NFTs). This contract inherits from the ERC721Enumerable and Ownable contracts to provide functionality for minting, managing ownership, and setting various parameters related to the NFT collection.
+This repository contains a minting web application that allows users to connect their MetaMask wallet and mint pictures. Once minted, users can view these pictures on the OpenSea testnet.
 
- ## Features
-ERC721 Compliance: Implements the ERC721 standard for NFTs.
+## Getting Started
 
-Minting: Allows users to mint new NFTs with a cost associated.
+To set up and run the application, follow these steps:
 
-Owner Management: Only the contract owner can perform certain administrative actions.
+### Prerequisites
 
-Metadata Management: Allows setting of base URI and base extension for token metadata.
+- **Node.js**: Ensure you have Node.js installed. If not, download and install it from [nodejs.org](https://nodejs.org/).
 
-## Contract Details
-Contract Name: ABC
+### Installation
 
-Token Name: Yankho's NFT Collection
+1. **Clone the Repository**
 
-Token Symbol: ABC 
+   ```bash
+   git clone https://github.com/21Saliji/Minting_Web_App.git
+   ```
 
-## To View collection on OpenSea Testnets
-Visit OpenSea Testnets
+2. **Navigate to the Project Directory**
 
-Navigate to the Collection: Enter the following address to find the collection.
-~~~javascript  
-  0x450f1695e5c4A27666fF40706534EB3166F00985
-~~~  
+   ```bash
+   cd your-repository
+   ```
 
-Check Listings
+3. **Install Dependencies**
+
+   ```bash
+   npm install
+   ```
+
+### Running the Application
+
+1. **Start the Development Server**
+
+   ```bash
+   npm run dev
+   ```
+
+2. **Access the Application**
+
+   Open your web browser and go to `http://localhost:3000` (or the port specified in your configuration).
+
+### Features
+
+- **MetaMask Integration**: Connect your MetaMask wallet to interact with the application.
+- **Mint Pictures**: Mint pictures directly from the web app.
+- **View on OpenSea Testnet**: Once minted, you can view your pictures on the OpenSea testnet.
+
+### ERC721 Standard
+
+This application uses an ERC721 compliant smart contract for minting NFTs. The ERC721 standard ensures that the tokens are unique and adhere to the non-fungible token specifications.
 
 
 
