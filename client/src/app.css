@@ -1,36 +1,29 @@
 /* General Layout */
 
-h1{
+h1 {
   text-align: center;
 }
 
-.prompt-button {
+.prompt-button, .mint-button, .connect-button {
   padding: 0.75em 1.5em;
   border: none;
   border-radius: 4px;
   background-color: #646cff;
-  /* justify-content: center; */
-  /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19); */
   color: #fff;
   font-size: 1em;
   cursor: pointer;
   transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+  margin: 10px; /* Add margin to buttons for spacing */
 }
 
 .mint-button {
-  padding: 0.75em 1.5em;
-  border: none;
-  border-radius: 4px;
-  background-color: #646cff;
-  /* justify-content: center; */
-  color: #fff;
-  font-size: 1em;
-  margin-right: 10px; 
-  cursor: pointer;
-  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+  margin-right: 0; /* Remove right margin for mint button */
 }
 
-p{text-align: center;}
+p {
+  text-align: center;
+  margin: 0 0 1em 0; /* Add margin below text */
+}
 
 /* Ensure the body and html take full height */
 html, body {
@@ -44,29 +37,30 @@ html, body {
   justify-content: center; /* Center horizontally */
   align-items: center; /* Center vertically */
   height: 100vh; /* Full viewport height */
+  flex-direction: column; /* Stack elements vertically */
 }
 
-.container {
+/* Flex container for text and icon */
+.wallet-status {
   display: flex;
   align-items: center; /* Align icon and text vertically */
-  gap: 0.5em; /* Optional: space between icon and text */
+  gap: 0.5em; /* Space between icon and text */
+  margin-bottom: 1em; /* Add margin below the wallet status */
 }
 
-/* Optional: Styling for text */
 .text {
   margin: 0;
   color: #000; /* Default color for text */
 }
 
-/* Connect Button */
+/* Centering the connect wallet button */
+.connect-button-container {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: 100vh; /* Full viewport height */
+}
+
 .connect-button {
-  padding: 0.75em 1.5em;
-  border: none;
-  border-radius: 4px;
-  background-color: #646cff;
-  /* margin-right: auto; */
-  color: #fff;
-  font-size: 1em;
-  cursor: pointer;
-  transition: background-color 200ms ease-in-out, transform 200ms ease-in-out;
+  /* No additional changes needed */
 }

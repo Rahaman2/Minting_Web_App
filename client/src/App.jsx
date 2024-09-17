@@ -62,21 +62,20 @@ function App() {
     <div>
       <h1>Minting Machine App</h1>
       {web3 ? (
-        <div>
-        <div class="page-container">
-          <div class="container">
-            
-            <p className="text">Your Wallet is connected</p>
-            <FontAwesomeIcon icon={faCircleCheck} style={{ color: '#63E6BE', marginRight: '0.5em' }} />
+        <div className="page-container">
+          <div className="container">
+            <div className="wallet-status">
+              <p className="text">Your Wallet is connected</p>
+              <FontAwesomeIcon icon={faCircleCheck} style={{ color: '#63E6BE' }} />
+            </div>
             <button onClick={promptForMintAmount} className="prompt-button">Set Mint Amount</button>
             <button onClick={mint} className="mint-button">Mint {mintAmount} NFT(s)</button>
           </div>
         </div>
-      
-          
-        </div>
       ) : (
-        <button onClick={connectWallet} className="connect-button">Connect Wallet</button>
+        <div className="connect-button-container">
+          <button onClick={connectWallet} className="connect-button">Connect Wallet</button>
+        </div>
       )}
     </div>
   );
