@@ -1,18 +1,16 @@
-// src/App.js
 import { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCircleCheck } from '@fortawesome/free-solid-svg-icons'; 
 import Web3 from 'web3';
-import nftContract from './nftContract'
+import nftContract from './nftContract';
 import './app.css'; 
-
 
 function App() {
   const [web3, setWeb3] = useState(null);
   const [accounts, setAccounts] = useState([]);
   const [contract, setContract] = useState(null);
   const [mintAmount, setMintAmount] = useState(1); 
-  const [balance, setBalance] = useState(0);
+  const [isConnected, setIsConnected] = useState(false); // New state for connection status
 
   const connectWallet = async () => {
     if (window.ethereum) {
@@ -25,6 +23,8 @@ function App() {
 
         const instance = nftContract(web3Instance);
         setContract(instance);
+
+        setIsConnected(true); // Set connection status to true after successful connection
 
       } catch (error) {
         console.error(error);
@@ -44,24 +44,22 @@ function App() {
     }
   }; 
 
-
   const mint = async () => {
     try {
       const costPerNFT = Web3.utils.toWei('0.05', 'wei');
       const totalCost = Web3.utils.toWei((costPerNFT * mintAmount).toString(), 'ether');
 
-      await contract.methods.mint(accounts[0], mintAmount).send({ from: accounts[0], value: totalCost,});
+      await contract.methods.mint(accounts[0], mintAmount).send({ from: accounts[0], value: totalCost });
       alert('Minting successful!');
     } catch (error) {
       console.error("Minting failed!", error);
     }
   };
 
-
   return (
     <div>
       <h1>Minting Machine App</h1>
-      {web3 ? (
+      {isConnected ? ( // Show this section if the wallet is connected
         <div className="page-container">
           <div className="container">
             <div className="wallet-status">
@@ -72,7 +70,7 @@ function App() {
             <button onClick={mint} className="mint-button">Mint {mintAmount} NFT(s)</button>
           </div>
         </div>
-      ) : (
+      ) : ( // Show this section if the wallet is not connected
         <div className="connect-button-container">
           <button onClick={connectWallet} className="connect-button">Connect Wallet</button>
         </div>
