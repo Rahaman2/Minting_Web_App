@@ -57,7 +57,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className="first-one">
       <h1>Minting Machine App</h1>
       {isConnected ? ( // Show this section if the wallet is connected
         <div className="page-container">
