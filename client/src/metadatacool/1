@@ -1,0 +1,19 @@
+ {
+    "name": "Thumbs Up and Tongue Out Emoji",
+    "description": "An emoji with two thumbs up and a tongue sticking out.",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/1.jpg",
+    "attributes": [
+      {
+        "trait_type": "Expression",
+        "value": "Playful"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Common"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

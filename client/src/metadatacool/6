@@ -1,0 +1,23 @@
+ {
+    "name": "Cool Monkey with Shades and Necklace",
+    "description": "A cool monkey wearing shades and a necklace.",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/6.jpg",
+    "attributes": [
+      {
+        "trait_type": "Animal",
+        "value": "Monkey"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Shades and Necklace"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

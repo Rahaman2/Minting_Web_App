@@ -1,0 +1,19 @@
+{
+    "name": "Shocked Emoji with Balls",
+    "description": "A shocked blue emoji surrounded by colored balls",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/9.jpg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Multicolor"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Common"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

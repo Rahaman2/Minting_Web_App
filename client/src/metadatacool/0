@@ -1,0 +1,19 @@
+{
+    "name": "Rainbow Smiles",
+    "description": "A smiling face with colors blue, pink, and purple",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/0.jpg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Blue, Pink, Purple"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Common"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

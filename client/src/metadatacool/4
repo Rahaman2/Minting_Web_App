@@ -1,0 +1,19 @@
+{
+    "name": "Smiling Champagne Emoji",
+    "description": "A smiling emoji with champagne being poured into a flute.",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/4.jpg",
+    "attributes": [
+      {
+        "trait_type": "Mood",
+        "value": "Joyful"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Common"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

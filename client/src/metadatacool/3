@@ -1,0 +1,19 @@
+  {
+    "name": "Party Hat and Champagne Emoji",
+    "description": "An emoji wearing a party hat with champagne and a flute.",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/3.jpg",
+    "attributes": [
+      {
+        "trait_type": "Celebration",
+        "value": "Party"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Rare"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

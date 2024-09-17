@@ -1,0 +1,19 @@
+ {
+    "name": "Cool Skull Emoji",
+    "description": "A cool looking skull emoji",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/8.jpg",
+    "attributes": [
+      {
+        "trait_type": "Background",
+        "value": "Dark Grey"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Legendary"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

@@ -1,0 +1,23 @@
+  {
+    "name": "Cool Monkey with Headphones",
+    "description": "A cool-looking monkey wearing headphones.",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/5.jpg",
+    "attributes": [
+      {
+        "trait_type": "Animal",
+        "value": "Monkey"
+      },
+      {
+        "trait_type": "Accessory",
+        "value": "Headphones"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }

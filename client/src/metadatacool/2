@@ -1,0 +1,19 @@
+  {
+    "name": "Weed Teapot Emoji",
+    "description": "An emoji of a teapot with a weed leaf.",
+    "image": "ipfs://QmbVzJynuT1swNGyS6mgJGXgjMhWDSC15sWMphFUw1LBzi/2.jpg",
+    "attributes": [
+      {
+        "trait_type": "Object",
+        "value": "Teapot"
+      },
+      {
+        "trait_type": "Rarity",
+        "value": "Uncommon"
+      },
+      {
+        "trait_type": "Year Created",
+        "value": "2024"
+      }
+    ]
+  }
